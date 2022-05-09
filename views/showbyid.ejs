@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผลสลากกินแบ่งรัฐบาล Show by ID</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>reward</th>
+            <th>lottery numbers</th>
+            <th>prize</th>
+            <th>date</th>
+        </tr>
+        <% great.forEach(function(item) { %>
+        <tr>
+            <td><%= item.id %></td>
+            <td><%= item.reward %></td>
+            <td><%= item.numbers %></td>
+            <td><%= item.prize %></td>
+            <td><%= item.date %></td>
+        </tr>
+        <% }) %>
+    </table>
+</body>
+</html>

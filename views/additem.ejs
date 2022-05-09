@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผลสลากกินแบ่งรัฐบาล POST Add Item</title>
+</head>
+<body>
+    <link href="style.css" rel="stylesheet">
+    <h1>เพิ่มข้อมูลของรางวัล</h1>
+    <% if(typeof mesg != "undefined") { %>
+    <h1><%= mesg %></h1>
+    <% } %>
+    <div class="table-menu">
+        <table>
+            <tr>
+                <td>
+                    <h3><a href="/" class="myButton">Home</a></h3>
+                </td>
+                <td>
+                    <h3><a href="/Profile" class="myButton">Profile</a></h3>
+                </td>
+                <td>
+                    <h3><a href="/additem" class="myButton">additem</a></h3>
+                </td>
+                <td>
+                    <h3><a href="/delete"class="myButton">delete</a></h3>
+                </td>
+            </tr>
+        </table> 
+        </div> 
+        <div>
+            <label>id</label>
+            <input type="text" name="id" id="id"> 
+        </div>
+        <div>
+            <label>reward</label>
+            <input type="text" name="reward" id="reward"> 
+        </div>
+        <div>
+            <label>numbers</label>
+            <input type="text" name="numbers" id="numbers"> 
+        </div>
+        <div>
+            <label>prize</label>
+            <input type="text" name="prize" id="prize"> 
+        </div>
+        <div>
+            <label>date</label>
+            <input type="text" name="date" id="date"> 
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

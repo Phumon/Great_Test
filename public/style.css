@@ -1,0 +1,88 @@
+/* CSS file --> index.html */
+/* (1) Tag Selector */
+body{
+    background-image: url(BackG.svg);
+    background-size: 100%;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: #080808;
+    /*background-color: #FCE38A;*/
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    color: #000000;
+    font-weight: normal;
+    /*background-color: #EAFFD0;*/
+}
+h3{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    
+    vertical-align: top;
+}
+/* (2) Class Selector */
+.p-Aboutme{
+    font-weight: normal; 
+    text-align: justify;
+}
+.p-Name{
+    font-weight: normal;
+}
+.p-Footer{
+    text-align: center;
+}
+.name{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+/* (3) Id Selector */
+#th-Details{
+    text-align: left;
+}
+ 
+/* div */
+.top-container{
+    background-color: #ffffff;
+}
+.table-content h2{
+    background-color: #333333;
+}
+.table-content img:hover{
+    background-color: #d7d7d7;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px -2px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 1%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:2px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#70baeb;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
